@@ -66,7 +66,7 @@ Current main status: 🚀 Beginning of development - v0.1
        "apple", 10,
        "banana", 20
    );
-   ``` ⏳  
+   ```  
 
 6. 🔍 Implementing getters ❌  
 7. 🧮 Implementing helper functions (check size, length, etc.) ❌  
