@@ -17,7 +17,17 @@ This project explores whether a similarly convenient, declarative interface can 
 ## Approach 🛠️
 
 The library is implemented using structured programming with standard methods for element hashing with dynamic table capacity (resize and rehash).  
-Interaction with the structure, however, is built around a combination of macros, generics, and void pointers to provide a more flexible and declarative API.
+Interaction with the structure, however, is built around a combination of macros, generics, and void pointers to provide a more flexible and declarative API, like:
+
+```c
+ht_add(&table,
+    1, val1,
+    2, val2,
+    "apple", 10,
+    "banana", 20,
+    key_var, hash_var
+);
+```  
 
 
 ## Low-level META divergence 🔬
@@ -59,15 +69,6 @@ Current main status: 🚀 Beginning of development - v0.1
    5.10 💾 Implementing function to insert a value of any type into the data structure ⏳  
    5.11 🧩 Implementing functions, macros, and generics for wrapping setter into a universal form, e.g. ❌  
    
-   ```c
-   ht_add(&table,
-       1, val1,
-       2, val2,
-       "apple", 10,
-       "banana", 20
-   );
-   ```  
-
 6. 🔍 Implementing getters ❌  
 7. 🧮 Implementing helper functions (check size, length, etc.) ❌  
 8. 🧱 Module assembly ❌  
