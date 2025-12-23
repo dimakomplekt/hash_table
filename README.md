@@ -57,7 +57,7 @@ Current main status: 🚀 Beginning of development - v0.1
    5.8 ↪️ Implementing helper function for linear probing of repeated hashes ❌  
    5.9 🗝️ Implementing function to insert a key of any type into the data structure ⏳  
    5.10 💾 Implementing function to insert a value of any type into the data structure ⏳  
-   5.11 🧩 Implementing functions, macros, and generics for wrapping setter into a universal form, e.g.:  
+   5.11 🧩 Implementing functions, macros, and generics for wrapping setter into a universal form, e.g. ❌  
    
    ```c
    ht_add(&table,
