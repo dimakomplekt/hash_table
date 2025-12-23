@@ -21,11 +21,11 @@ Interaction with the structure, however, is built around a combination of macros
 
 ```c
 ht_add(&table,
-    1, val1,
-    2, val2,
+    1, val_1,
+    2, val_2,
     "apple", 10,
     "banana", 20,
-    key_var, hash_var
+    key_1, val_3
 );
 ```  
 
