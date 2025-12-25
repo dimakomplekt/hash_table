@@ -238,12 +238,7 @@ bool ht_insert(hash_table* table,
                 {
                     // Linear hash intersection pass
                     
-
-
-                    !!!!!!! РЕАЛИЗОВАТЬ ЛИНЕЙНОЕ ПРОБИТИЕ - ЕГО ТУПО НЕТ !!!!!
-                    !!!!!!! РЕАЛИЗОВАТЬ ЛИНЕЙНОЕ ПРОБИТИЕ - ЕГО ТУПО НЕТ !!!!!
-                    !!!!!!! РЕАЛИЗОВАТЬ ЛИНЕЙНОЕ ПРОБИТИЕ - ЕГО ТУПО НЕТ !!!!!
-
+                    // TODO: LINEAR PROBING
 
 
                     tmp_probing_hashed_key = linear_prb(table, curr_key_type, tmp_probing_hashed_key);
