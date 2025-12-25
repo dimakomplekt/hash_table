@@ -43,9 +43,9 @@ This project consciously explores a different path. The choice of tools is delib
 Current main status: 🚀 Beginning of development - v0.1
 
 **Legend:**
-- ✅ 🟢 done
-- ⏳ 🟡 in progress
-- ❌ 🔴 not started
+- ✅ done
+- ⏳ in progress
+- ❌ not started
 - 🧪 experimental
 - ⚠️ questionable decision
 
