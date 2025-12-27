@@ -19,6 +19,15 @@ This project explores whether a similarly convenient, declarative interface can 
 The library is implemented using structured programming with standard methods for element hashing with dynamic table capacity (resize and rehash).  
 Interaction with the structure, however, is built around a combination of macros, generics, and void pointers to provide a more flexible and declarative API, like:
 
+Init:
+
+```c
+hash_table table = ht_create();
+```
+
+
+Use:
+
 ```c
 ht_add(&table,
     1, val_1,
