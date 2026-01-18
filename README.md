@@ -29,12 +29,15 @@ hash_table table = ht_create();
 Use:
 
 ```c
-ht_add(&table,
+ht_add(
+
+    &table,
     1, val_1,
     2, val_2,
     "apple", 10,
     "banana", 20,
     key_1, val_3
+
 );
 ```  
 
