@@ -32,6 +32,7 @@ Use:
 ht_add(
 
     &table,
+
     1, val_1,
     2, val_2,
     "apple", 10,
